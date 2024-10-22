@@ -22,4 +22,5 @@ To get started with this project, follow these steps:
    npm start
 
 ## Output
-![Demo](./)
+![Demo](./src/assets/image.png)
+![Demo](./src/assets/image2.png)
