@@ -13,9 +13,9 @@
     left: 50%;
     transform: translateX(-50%);
  
-    background: rgba(255, 255, 255, 0); /* Semi-transparent background */
-    backdrop-filter: blur(20px); /* Blur effect for the navbar */
-    transition: all 0.3s ease; /* Smooth transition for background changes */
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(20px);
+    transition: all 0.3s ease; 
 }
 
 .fa-user {
@@ -48,13 +48,6 @@
     border-bottom: 2px solid black;
 }
 
-/* .nav-links.active {
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.8);
-    font-weight: bold;
-} */
-
-
 .nav-links i {
     padding-right: 10px;
 }
@@ -63,8 +56,6 @@
 .menu-icons {
     display: none;
 }
-
-
 .NavbarItems {
     display: flex;
     justify-content: space-between;
@@ -77,14 +68,11 @@
     align-items: center;
   }
   
-
-
-
 @media screen and (max-width: 850px) {
     .NavbarItems {
         z-index: 99;
-        backdrop-filter: blur(20px); /* Apply stronger blur on mobile */
-        transition: all 0.5s ease-in-out; /* Smooth transition */
+        backdrop-filter: blur(20px); 
+        transition: all 0.5s ease-in-out; 
     }
 
     .navbar-nav {
@@ -93,7 +81,7 @@
         justify-self: flex-start;
         background-color: rgba(255, 255, 255, 0.25);
         box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
-        backdrop-filter: blur(20px); /* Blur effect for the nav menu */
+        backdrop-filter: blur(20px); 
         border-radius: 13px;
         width: 100%;
         height: auto;
@@ -111,10 +99,9 @@
         left: 0;
     }
 
-    /* Updated to remove vertical spacing */
     .nav-links {
         display: block;
-        padding: 1rem 0; /* Reduced padding to remove excessive line spacing */
+        padding: 1rem 0; 
         color: black;
         width: 100%;
         text-align: center;
